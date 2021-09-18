@@ -1,5 +1,5 @@
 {
-  "name": "user-crud-router-ui-only",
+  "name": "users-crud-router-ui-only",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
