@@ -11,7 +11,7 @@ function Users() {
         "https://611f264e9771bf001785c73e.mockapi.io//users"
       );
       const users = await res.json();
-      console.log(users);
+      //console.log(users);
       setUsers(users);
     };
     fetchData();

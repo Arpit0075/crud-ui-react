@@ -10,10 +10,12 @@ function User({ match }) {
         `https://611f264e9771bf001785c73e.mockapi.io/users/${match.params.id}`
       );
       const user = await res.json();
-      console.log(user);
+      // console.log(user);
       setUser(user);
     };
+
     fetchDataUser();
+    // eslint-disable-next-line
   }, []);
   return (
     <div className="User">
